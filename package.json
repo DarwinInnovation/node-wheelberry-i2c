@@ -2,7 +2,7 @@
   "name": "wheelberry-i2c",
   "version": "1.0.0",
   "description": "I2C support for Wheelberry project",
-  "license": "Unlicense",
+  "license": "MIT",
   "author": {
     "name": "Richard Miller-Smith"
   },
