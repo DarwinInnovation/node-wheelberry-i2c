@@ -16,10 +16,7 @@
     "prebuild": "npm run clean && npm run lint && echo Using TypeScript && tsc --version",
     "build": "tsc --pretty",
     "pretest": "tsc --pretty",
-    "test": "jest",
-    "coverage": "jest --coverage",
-    "watch": "npm run build -- --watch",
-    "watch:test": "jest --watch"
+    "watch": "npm run build -- --watch"
   },
   "dependencies": {
     "i2c-bus": "^5.1.0",
@@ -32,9 +29,7 @@
     "@types/jest": "^22.0.1",
     "@types/lodash": "^4.14.149",
     "@types/node": "^8.10.59",
-    "@types/pino": "^5.15.5",
-    "jest": "^23.6.0",
-    "ts-jest": "^23.10.5"
+    "@types/pino": "^5.17.0"
   },
   "engines": {
     "node": ">=10.0.0"
