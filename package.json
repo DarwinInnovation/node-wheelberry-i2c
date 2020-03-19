@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate-module-typescript",
+  "name": "wheelberry-i2c",
   "version": "1.0.0",
-  "description": "Typescript module boilerplate using Jest, eslint and prettier",
+  "description": "I2C support for Wheelberry project",
   "license": "Unlicense",
   "author": {
     "name": "Richard Miller-Smith"
@@ -21,14 +21,22 @@
     "watch": "npm run build -- --watch",
     "watch:test": "jest --watch"
   },
-  "dependencies": {},
+  "dependencies": {
+    "i2c-bus": "^5.1.0",
+    "lodash": "^4.17.15",
+    "onoff": "^5.0.1",
+    "pino": "^5.17.0"
+  },
   "devDependencies": {
+    "@types/i2c-bus": "^5.1.0",
     "@types/jest": "^22.0.1",
-    "@types/node": "^8.0.0",
+    "@types/lodash": "^4.14.149",
+    "@types/node": "^8.10.59",
+    "@types/pino": "^5.15.5",
     "jest": "^23.6.0",
-    "ts-jest": "^23.10.0"
+    "ts-jest": "^23.10.5"
   },
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=10.0.0"
   }
 }

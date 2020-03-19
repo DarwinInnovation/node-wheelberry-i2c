@@ -4,6 +4,6 @@
 // @date 23 May 2018
 //
 
-export function invert_fn(val: boolean) {
-  return !val;
-}
+export * from './WbI2cBus';
+export * from './WbI2cDevice';
+export * from './MCP23017';
