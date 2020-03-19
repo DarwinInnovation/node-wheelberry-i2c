@@ -26,7 +26,6 @@
   },
   "devDependencies": {
     "@types/i2c-bus": "^5.1.0",
-    "@types/jest": "^22.0.1",
     "@types/lodash": "^4.14.149",
     "@types/node": "^8.10.59",
     "@types/pino": "^5.17.0"
