@@ -1,1 +1,3 @@
-export declare function invert_fn(val: boolean): boolean;
+export * from './WbI2cBus';
+export * from './WbI2cDevice';
+export * from './MCP23017';
